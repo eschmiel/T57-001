@@ -1,0 +1,113 @@
+.intro {
+
+height: 100%;
+background-color: #1b2386;
+/*position: relative;*/
+
+}
+
+h1, h2 {
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bolder;
+	margin: 0px;
+}
+
+.sky {
+	background-color: #1c2487;
+	
+	height:200px;
+}
+
+.logo {
+	position: absolute;
+	background-image: url("images/t57-001logoedit.png");
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: contain;
+	background-attachment: fixed;
+	width: 100%;
+	bottom: 0px;
+	height: 600px;
+	z-index: 1;
+	}
+	
+body, html {
+	height: 100%;
+	margin: 0px;
+}
+
+
+#title {
+	position: fixed;
+	width: 100%;
+	top: 200px;
+	z-index: 2;
+	text-align: center;
+	color: white;
+	opacity: .7;
+}
+
+/*#title h1{
+	
+	text-align: center;
+	color: white;
+	opacity: .7;
+	
+}*/
+
+#title h2{
+	opacity: .7;
+}
+
+#whatIs {
+
+height:45%;
+width:100%;
+display:inline-block;
+}
+
+#whatIs h2 {
+	padding: 2rem;
+	padding-left:5rem;
+	font-size: 3rem;
+	letter-spacing: 11px;
+	padding-bottom:1rem;
+	text-shadow: -1px -1px 0 #5eba90,
+				 -1px 1px 0 #5eba90,
+				 1px -1px 0 #5eba90,
+				 1px 1px 0 #5eba90;
+	color:white;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-style: italic;
+	
+}
+
+p { padding: 0rem 5rem 3rem 5rem;}
+
+.double-underline {
+	position: relative;
+	border-top: 5px double #b8dbcb;
+	height: 20px;
+	margin-left:9rem;
+	width: 43rem;
+
+}
+
+@media (max-width: 768px) {
+	.double-underline{
+		width:14rem;
+		margin-left: 6rem;
+	}
+	
+	#whatIs h2 {
+		padding: 1rem;
+		padding-left: 3rem;
+		font-size: 2rem;
+	}
+	
+	p {
+		padding: 0rem 1rem 2rem 3rem;
+	}
+}
+	
+	
